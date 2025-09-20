@@ -1,0 +1,443 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Gilroy, sans-serif;
+    cursor: crosshair;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 208, 255);
+}
+
+#navbar {
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+}
+
+#navelem1 h2 {
+    padding: 10px;
+    font-weight: 600;
+}
+
+#navelem2 h1 {
+    font-weight: 600;
+    padding-left: 100px;
+}
+
+#navelem3 {
+    padding-right: 10px;
+} 
+
+.space {
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: blue;
+    text-decoration: none;
+}
+
+.space:hover {
+    color: black;
+}
+
+#content {
+    width: 100%;
+    height: 90%;
+    background-color: rgb(0, 255, 213);
+    background-image: url(https://wallpapercave.com/wp/wp7853816.jpg);
+    background-size: cover;
+    background-position: center;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cont1 h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#cont2 h4 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.text {
+    font-size: 33px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid black;
+    background-color: blue;
+    color: white;
+}
+
+#edu {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#edu1 {
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+
+#edu2 {
+    width: 40%;
+    height: 100%;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+#part1 {
+    width: 100%;
+    height: 80%;
+    padding: 60px;
+}
+
+#part1 h2 {
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 500;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+
+#part1 p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+
+#part2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+.info h4 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#image img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+#banner {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#banner i {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.text1 {
+    font-size: 33px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid black;
+    background-color: blue;
+    color: white;
+}
+
+#education {
+    width: 100%;
+    min-height: 40vh;
+    background-color: rgb(207, 242, 247);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.edu {
+    padding: 0 100px;
+    border-right: 3px solid black;
+}
+
+.edu:last-child {
+    border-right: none;
+}
+
+.year {
+    padding-bottom: 22px;
+    border-bottom: 3px solid black;
+}
+
+.year h3 {
+    padding-bottom: 5px;
+    font-weight: 400;
+}
+
+.institution {
+    padding-top: 18px;
+}
+
+.institution h3 {
+    letter-spacing: -1px;
+    word-spacing: 4px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.institution h5 {
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.text2 {
+    font-size: 33px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid black;
+    background-color: blue;
+    color: white;
+}
+
+#profiles {
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgb(149, 205, 210);
+    margin-top: 50px;
+}
+
+.parts {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.elems {
+    width: 300px;
+    height: 243px;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.elems a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.elems:hover {
+    transform: scale(3);
+}
+
+.elems:nth-child(1):hover {
+    color: black;
+}
+
+.elems:nth-child(2):hover {
+    color: blue;
+}
+
+.elems:nth-child(3):hover {
+    color: black;
+}
+
+.parts:nth-child(2) .elems:nth-child(1):hover {
+    color: red;
+}
+
+.parts:nth-child(2) .elems:nth-child(2):hover {
+    color: blue;
+}
+
+.parts:nth-child(2) .elems:nth-child(3):hover {
+    color: red;
+}
+
+.contact {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+}
+
+#details {
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid black;
+    margin: 26px;
+}
+
+#contactform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.form5 {
+    margin: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+#contactform input:focus {
+    outline: none;
+}
+
+.button {
+    border: none;
+    margin-top: 50px;
+    padding: 12px 50px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #000;
+    color: white; 
+}
+
+#details1 {
+    width: 70%;
+    height: 100%;
+    border-right: 1px solid black;
+    display: flex;
+} 
+
+#location {
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid black;
+    margin: 26px 0;
+}
+
+.contacticon {
+    font-size: 22px;
+    padding: 15px;
+}
+
+#address h3 {
+    font-weight: 400;
+}
+
+#location1, #location2 {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#socials {
+    width: 30%;
+    height: 100%;
+    margin: 26px;
+    border-right: 1px solid black;
+}
+
+#texts h3 {
+    font-weight: 300;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+#links i, #links a {
+    padding: 7px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#links a:hover {
+    color: green;
+}
+
+#rights {
+    width: 40%;
+    height: 100%;
+    margin: 26px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rights p > a {
+    text-decoration: none;
+}
+
+#rights p > a:hover {
+    color: white;
+    background-color: #000;
+    font-weight: 900;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+#backToTop:hover {
+    opacity: 1;
+}
